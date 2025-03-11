@@ -1,0 +1,34 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\ifthenelse{\boolean{english}}
+	{\cvsection{Skills}}
+	{\cvsection{Habilidades}}
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvskills}
+	
+	%---------------------------------------------------------
+	\cvskill
+	{\ifthenelse{\boolean{english}}{Programming}{Programación}} % Category
+	{C\# (.NET, WPF,  ASP.NET,  API development), Python, C++ (Visual C++, Unreal Engine 4), Java (Kotlin), Git, SVN, Perforce} % Skills
+	
+	%---------------------------------------------------------
+	\cvskill
+	{\ifthenelse{\boolean{english}}{DB / Sys}{BD / Sistemas}} % Category
+	{MySQL, SQL Server, Linux, Windows Server} % Skills
+	
+	%---------------------------------------------------------
+	\cvskill
+	{Hacking} % Category
+	{Kali Linux, nmap, metasploit (Ethical Hacking) / IDA, Ghidra, x64dbg (Malware/Reversing) / Autopsy, FTK Imager (Forensics)} % Skills
+	
+	%---------------------------------------------------------
+	\cvskill
+	{IAM} % Category
+	{Okta, Auth0, OAuht2.0, OIDC, SAML} % Skills
+	
+	%---------------------------------------------------------
+\end{cvskills}

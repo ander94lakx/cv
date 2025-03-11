@@ -1,0 +1,41 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\ifthenelse{\boolean{english}}
+	{\cvsection{Languages}}
+	{\cvsection{Idiomas}}
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvskills}
+	
+	\cvskill
+		{
+			\ifthenelse{\boolean{english}}
+			{English}
+			{Inglés}
+		} % Category
+		{B2} % Skills
+	
+	\cvskill
+		{
+			\ifthenelse{\boolean{english}}
+			{Spanish}
+			{Español}
+		} % Category
+		{
+			\ifthenelse{\boolean{english}}
+			{Native}
+			{Nativo}
+		} % Skills
+	
+	\cvskill
+		{
+			\ifthenelse{\boolean{english}}
+			{Basque}
+			{Euskera}
+		} % Category
+		{B2} % Skills
+
+\end{cvskills}
