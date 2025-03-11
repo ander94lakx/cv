@@ -1,7 +1,4 @@
 # cv
-```
-```
-```
 
 Bilingual CV made with LaTeX.
 
