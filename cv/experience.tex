@@ -9,7 +9,9 @@
 %	CONTENT
 %-------------------------------------------------------------------------------
 \begin{cventries}
-		
+	
+	\renewcommand{\labelitemii}{\bullet}
+	
 	%---------------------------------------------------------
 	\cventry
 		{
@@ -29,42 +31,60 @@
 				{Abr. 2024 - Actual}
 		} % Date(s)
 		{
-			\begin{cvitems} % Description(s) of tasks/responsibilities
-				\item {
-					\ifthenelse{\boolean{english}}
-						{IAM Lead Consultant: IAM Technical Architect performing security architecture design and definition tasks related to access and identity management and implementation of access management solutions such as Okta and Auth0 for workforce and CIAM environments}
-						{IAM Lead Consultant: Arquitecto técnico IAM realizando labores de diseño y definición de arquitectura de seguridad relacionadas con la gestión de accesos e identidades e implantación de soluciones de gestión de accesos como Okta y Auth0 para entornos workforce y CIAM}
-					}
+			\begin{cvitems}
+				\item[] {
+					\textcolor{darktext}{\textit{\textbf {\scriptsize Lead Cybersecurity Consultant}}}
+					\begin{itemize}
+						\item {
+							\ifthenelse{\boolean{english}}
+								{IAM Technical Architect performing security architecture design and definition tasks related to access and identity management and implementation of access management solutions such as Okta and Auth0 for workforce and CIAM environments}
+								{Arquitecto técnico IAM realizando labores de diseño y definición de arquitectura de seguridad relacionadas con la gestión de accesos e identidades e implantación de soluciones de gestión de accesos como Okta y Auth0 para entornos workforce y CIAM}
+						}
+					\end{itemize}}
+				\item[] {
+					\textcolor{darktext}{\textit{\textbf {\scriptsize Cybersecurity Consultant}}}
+					\begin{itemize}
+						\item {
+							\ifthenelse{\boolean{english}}
+								{Consulting and Implementation of Customer and Workforce IAM solutions like Okta and Auth0}
+								{Consultoría e implementación de soluciones CIAM y Workforce con soluciones como Okta y Auth0}
+						}
+					\end{itemize}
+				}
 			\end{cvitems}
 		}
 
-		%---------------------------------------------------------
-	\cventry
-		{
-			Devoteam CyberTrust (BeClever Solutions)
-		} % Organization
-		{
-			Cybersecurity Consultant
-		} % Job title
-		{
-			\ifthenelse{\boolean{english}}
-				{Bilbao, Spain (Remote)}
-				{Bilbao  (Remoto)}
-		} % Location
-		{
-			\ifthenelse{\boolean{english}}
-				{Dec. 2021 - Mar. 2024}
-				{Dic. 2021 - Mar. 2024}
-		} % Date(s)
-		{
-			\begin{cvitems} % Description(s) of tasks/responsibilities
-				\item {
-					\ifthenelse{\boolean{english}}
-						{IAM Consultant: Consulting and Implementation of Customer and Workforce IAM solutions like Okta and Auth0}
-						{Consultor IAM: Consultoría e implementación de soluciones CIAM y Workforce con soluciones como Okta y Auth0}
-					}
-			\end{cvitems}
-		}
+	%---------------------------------------------------------
+%	\cventry
+%		{
+%			Devoteam CyberTrust (BeClever Solutions)
+%		} % Organization
+%		{
+%			Cybersecurity Consultant
+%		} % Job title
+%		{
+%			\ifthenelse{\boolean{english}}
+%				{Bilbao, Spain (Remote)}
+%				{Bilbao  (Remoto)}
+%		} % Location
+%		{
+%			\ifthenelse{\boolean{english}}
+%				{Dec. 2021 - Mar. 2024}
+%				{Dic. 2021 - Mar. 2024}
+%		} % Date(s)
+%		{
+%			\begin{cvitems} % Description(s) of tasks/responsibilities
+%				\item[] {
+%					\begin{itemize}
+%						\item {
+%							\ifthenelse{\boolean{english}}
+%								{IAM Consultant: Consulting and Implementation of Customer and Workforce IAM solutions like Okta and Auth0}
+%								{Consultor IAM: Consultoría e implementación de soluciones CIAM y Workforce con soluciones como Okta y Auth0}
+%						}
+%					\end{itemize}
+%				}
+%			\end{cvitems}
+%		}
 		
 	%---------------------------------------------------------
 	\cventry
@@ -88,20 +108,24 @@
 	} % Date(s)
 	{
 		\begin{cvitems} % Description(s) of tasks/responsibilities
-			\item {
-				\ifthenelse{\boolean{english}}
-					{Industrial environments simulation applications with .NET (C\#), WPF, OPC UA}
-					{Aplicaciones de simulación de entornos industriales con .NET (C\#), WPF, OPC UA}
-			}
-			\item {
-				\ifthenelse{\boolean{english}}
-					{Data Acquisition Systems (DAQ) for industrial processes with Python, MySQL, Beckhoff Industrial PCs}
-					{Sistemas de adquisición de datos (DAQ) para procesos industriales con Python, MySQL, PC Industrial Beckhoff}
-			}
-			\item {
-				\ifthenelse{\boolean{english}}
-					{Application development for european R\&D projects with .NET (C\#), ASP.NET, OpenAPI}
-					{Desarrollo de aplicaciones para proyectos europeos de I+D con .NET (C\#), ASP.NET, OpenAPI}
+			\item[] {
+				\begin{itemize}
+					\item {
+						\ifthenelse{\boolean{english}}
+							{Industrial environments simulation applications with .NET (C\#), WPF, OPC UA}
+							{Aplicaciones de simulación de entornos industriales con .NET (C\#), WPF, OPC UA}
+					}
+					\item {
+						\ifthenelse{\boolean{english}}
+							{Data Acquisition Systems (DAQ) for industrial processes with Python, MySQL, Beckhoff Industrial PCs}
+							{Sistemas de adquisición de datos (DAQ) para procesos industriales con Python, MySQL, PC Industrial Beckhoff}
+					}
+					\item {
+						\ifthenelse{\boolean{english}}
+							{Application development for european R\&D projects with .NET (C\#), ASP.NET, OpenAPI}
+							{Desarrollo de aplicaciones para proyectos europeos de I+D con .NET (C\#), ASP.NET, OpenAPI}
+					}
+				\end{itemize}
 			}
 		\end{cvitems}
 	}
@@ -126,10 +150,14 @@
 	} % Date(s)
 	{
 		\begin{cvitems} % Description(s) of tasks/responsibilities
-			\item {
-				\ifthenelse{\boolean{english}}
-				{Rolling BOB (PlayStation 4 videogame) developed with Unreal Engine 4 and C++. Gameplay programming (with some architecture and UI programming)}
-				{Rolling BOB (videojuego de PlayStation 4) desarrollado con Unreal Engine 4 y C++. Programación de gameplay (+ elementos de arquitectura y UI)}
+			\item[] {
+				\begin{itemize}
+					\item {
+						\ifthenelse{\boolean{english}}
+						{Rolling BOB (PlayStation 4 videogame) developed with Unreal Engine 4 and C++. Gameplay programming (with some architecture and UI programming)}
+						{Rolling BOB (videojuego de PlayStation 4) desarrollado con Unreal Engine 4 y C++. Programación de gameplay (+ elementos de arquitectura y UI)}
+					}
+				\end{itemize}
 			}
 		\end{cvitems}
 	}

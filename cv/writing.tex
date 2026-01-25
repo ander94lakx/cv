@@ -11,6 +11,8 @@
 %-------------------------------------------------------------------------------
 \begin{cventries}
 
+	\renewcommand{\labelitemii}{\bullet}
+
 	%---------------------------------------------------------
 	\cventry
 	{
@@ -28,11 +30,15 @@
 		2022
 	} % Date(s)
 	{
-		\begin{cvitems} 
-			\item{
-				\ifthenelse{\boolean{english}}
-					{Paper focuses on demonstrating the use of a malware analysis methodology by applying modern malware analysis techniques in a real and complex malware sample}
-					{Artículo cientifico centrado en demostrar el uso de una metodología de análisis de malware aplicando técnicas modernas de análisis de malware en una muestra real y compleja de malware}
+		\begin{cvitems}
+			\item[] {
+				\begin{itemize}
+					\item{
+						\ifthenelse{\boolean{english}}
+							{Paper focuses on demonstrating the use of a malware analysis methodology by applying modern malware analysis techniques in a real and complex malware sample}
+							{Artículo cientifico centrado en demostrar el uso de una metodología de análisis de malware aplicando técnicas modernas de análisis de malware en una muestra real y compleja de malware}
+					}
+				\end{itemize}
 			}
 		\end{cvitems}
 	} % Description(s)
@@ -59,10 +65,14 @@
 	} % Date(s)
 	{
 		\begin{cvitems}
-			\item{
-				\ifthenelse{\boolean{english}}
-					{Personal blog focused on cybersecurity and programming with a highly technical approach, where I share projects and ideas that I work on or that come to mind}
-					{Blog personal centrado en ciberseguridad y programación con un enfoque muy técnico, en el que comparto proyectos e ideas en los que trabajo o que se me pasan por la cabeza}
+			\item[] {
+				\begin{itemize}
+					\item{
+						\ifthenelse{\boolean{english}}
+							{Personal blog focused on cybersecurity and programming with a highly technical approach, where I share projects and ideas that I work on or that come to mind}
+							{Blog personal centrado en ciberseguridad y programación con un enfoque muy técnico, en el que comparto proyectos e ideas en los que trabajo o que se me pasan por la cabeza}
+					}
+				\end{itemize}
 			}
 		\end{cvitems}
 	} % Description(s)

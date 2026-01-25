@@ -662,13 +662,19 @@
   \vspace{2mm}
 }
 
+% Source - https://tex.stackexchange.com/a
+% Posted by Henri Menke
+% Retrieved 2026-01-23, License - CC BY-SA 4.0
+
 % Define an environment for cventry
-\newenvironment{cventries}{%
-  \vspace{\acvSectionContentTopSkip}
-  \begin{center}
-}{%
-  \end{center}
+\newenvironment{cventries}[1][0pt]{%
+	\vspace{\acvSectionContentTopSkip}
+	\begin{center}
+		\leftskip=#1\relax
+	}{%
+	\end{center}
 }
+
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventry}[5]{%
