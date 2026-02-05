@@ -24,3 +24,6 @@ xelatex -output-directory=out/eng "\newcommand{\english}{true} \input{cv.tex}"
 xelatex -output-directory=out/esp "\newcommand{\english}{false} \input{cv.tex}"
 ```
 
+Links to my CV:
+- [English](https://raw.githubusercontent.com/ander94lakx/cv/master/out/eng/cv.pdf)
+- [Spanish](https://raw.githubusercontent.com/ander94lakx/cv/master/out/esp/cv.pdf)
