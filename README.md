@@ -31,5 +31,5 @@ Links to my CV:
 
 QR codes:
 
-![English CV](ander-granado-cv-english.svg "English CV")
-![Spanish CV](ander-granado-cv-spanish.svg "Spanish CV")
+![English CV](ander-granado-cv-english.png "English CV")
+![Spanish CV](ander-granado-cv-spanish.png "Spanish CV")
